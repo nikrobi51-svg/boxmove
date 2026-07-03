@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Cargo taxi van in Tbilisi</title>
+  <desc id="desc">White high-roof cargo van similar to a Sprinter, ready for boxes and equipment delivery.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#f9edd8"/><stop offset="1" stop-color="#bfd3cf"/></linearGradient>
+    <linearGradient id="road" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#3a4047"/><stop offset="1" stop-color="#1d2127"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#000" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="900" height="620" fill="url(#sky)"/>
+  <circle cx="742" cy="112" r="56" fill="#f3b31a" opacity=".95"/>
+  <path d="M0 338 140 178l126 160 168-210 206 210 146-154 114 154v120H0z" fill="#d8e1d8"/>
+  <path d="M0 392h900v228H0z" fill="#252a30"/>
+  <path d="M332 336h238l254 284H92z" fill="url(#road)"/>
+  <path d="M450 360v230" stroke="#f3b31a" stroke-width="9" stroke-dasharray="38 28" stroke-linecap="round"/>
+  <g filter="url(#shadow)" transform="translate(255 278) scale(1.08)">
+    <rect x="40" y="98" width="390" height="150" rx="18" fill="#f8f8f1" stroke="#111" stroke-width="5"/>
+    <rect x="78" y="18" width="246" height="106" rx="18" fill="#fff" stroke="#111" stroke-width="5"/>
+    <path d="M324 34h78c45 18 70 48 86 90v66H324z" fill="#fff" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="356" y="62" width="66" height="50" rx="7" fill="#cfe7ee" stroke="#111" stroke-width="4"/>
+    <rect x="104" y="154" width="150" height="42" rx="8" fill="#f3b31a"/>
+    <text x="121" y="183" font-family="Arial, sans-serif" font-size="29" font-weight="800" fill="#111">BoxMove</text>
+    <line x1="55" y1="212" x2="420" y2="212" stroke="#111" stroke-width="5"/>
+    <circle cx="132" cy="258" r="37" fill="#111"/><circle cx="132" cy="258" r="16" fill="#f8f8f0"/>
+    <circle cx="356" cy="258" r="37" fill="#111"/><circle cx="356" cy="258" r="16" fill="#f8f8f0"/>
+    <rect x="82" y="36" width="230" height="15" rx="8" fill="#111" opacity=".08"/>
+  </g>
+  <g transform="translate(78 365)">
+    <rect x="0" y="70" width="92" height="78" rx="8" fill="#c9823e"/><rect x="40" y="70" width="13" height="78" fill="#f2c25d"/>
+    <rect x="82" y="24" width="104" height="124" rx="8" fill="#d79a55"/><rect x="128" y="24" width="15" height="124" fill="#f2c25d"/>
+    <rect x="178" y="90" width="86" height="58" rx="8" fill="#b96a37"/><rect x="216" y="90" width="12" height="58" fill="#f2c25d"/>
+  </g>
+  <circle cx="138" cy="126" r="66" fill="#139b72"/>
+  <text x="96" y="148" font-family="Arial, sans-serif" font-size="54" font-weight="900" fill="#fff">40</text>
+</svg>
